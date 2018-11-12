@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>XL BETA</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <style type="text/css">
+    .clearfix:after {
+      visibility: hidden;
+      display: block;
+      content: "";
+      clear: both;
+      height: 0;
+    }
+          .d-table {
+    display:table !important;
+    }
+    .d-table-cell {
+      display:table-cell !important;
+    }
+    .w-100 {
+      width: 100% !important;
+    }
+    .tar {
+      text-align: right !important;
+    }
+    .input-group{
+        width: -webkit-fill-available;
+    }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding-top: 5%;">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 align-self-center">
+                <form id="form_login" novalidate="novalidate">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="d-table w-100">
+                                    <h5 class="d-table-cell"><i class="fa fa-bars mr-1"></i> Manual Paket</h5>
+                                                                    </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-group">
+                                    <label>ID : </label>
+                                    <input class="form-control" type="number" name="_aptget_id" value="" placeholder="Contoh: 4123">
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <button type="submit" class="btn btn-outline-secondary" id="buy" name="buy">Beli</button>
+                                <button type="submit" class="btn btn-outline-secondary" id="scan" name="scan">Scan</button>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div style="padding-top: 5%;padding-bottom: 5%;">
+                <h6>Cara Menggunakan: </h6><br>
+                1. Klik "Scan"<br>
+                2. Salin/Copy ID Tersebut, Paste/Tempel pada kolom ID yang disediakan<br>
+                3. Klik "Beli"<br>
+                4. Done<br>
+            </div>
+            <div class="col-sm-12 text-center align-self-center">
+              <br>
+                <h6>Result</h6>
+                <div id="login_result">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <a>
+            &copy; 2018 Sn1P3R_R4ky4t</a>
+        </div>
+    </footer>
+    <script src="code.jquery.com/www_subdomain/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
